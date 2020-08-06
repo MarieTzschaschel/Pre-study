@@ -8,4 +8,4 @@ The result shows a highly significant difference between the two groups. Nouns w
 
 # Two main projects
 In the python project (prestudy_item_ceration) the noun pairs are created and their corresponding similarity values are calculated. The output is a dataframe (df_simval) containing the noun pairs of both groups (noun pairs with the same animacy: similar group, noun pairs with different animacy: contrast group) and a similarity value for each word pair.
-The prestudy_dataanalysis is the statistical analysis that compares the similarity values of both groups. Linear models are fitted and compared with each other (anova test) and a null model test is conducted to check whether the difference between the groups is significant. 
+The prestudy_dataanalysis is the statistical analysis that compares the similarity values of both groups. A linear mixed model with varying intercepts for items is fitted.
